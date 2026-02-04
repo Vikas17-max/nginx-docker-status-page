@@ -23,6 +23,18 @@ The web page is served from: /usr/share/nginx/html/index.html
 
 The container is exposed using port mapping: -p 80:80
 
+## 🚀 How to Run
+
+### Prerequisites
+- Docker installed
+
+### Steps
+```bash
+git clone https://github.com/Vikas17-max/nginx-docker-status-page.git
+cd nginx-docker-status-page
+docker build -t nginx-status-page .
+docker run -d -p 80:80 nginx-status-page
+
 
 ## 👤 Managed By
 **Vikas Saun**
